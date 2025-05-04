@@ -264,3 +264,24 @@ body {
 .additional-info__languages-item {
     color: var(--secondary-text-color);
 }
+
+/* Hobbies, likes and dislikes styles */
+.additional-info__hobbies,
+.additional-info__likes,
+.additional-info__dislikes {
+    padding: 0 20px;
+}
+
+.additional-info__hobbies-header,
+.additional-info__likes-header,
+.additional-info__dislikes-header {
+    color: var(--secondary-text-color);
+    text-align: left;
+    margin-bottom: 20px;
+}
+
+.additional-info__hobbies-list,
+.additional-info__likes-list,
+.additional-info__dislikes-list {
+    list-style: none;
+}
